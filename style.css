@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E8E3D2;
+    color: #161513;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*nav*/
+
+.nav {
+    display: flex;
+    padding: 15px;
+}
+
+.logo {
+    margin-right: 15px;
+}
+
+.topic {
+    font-weight: 700;
+    font-size: 18.7112px;
+    line-height: 23px;
+    padding-top: 7px;
+    color: #161513;
+}
+
+.menu {
+    position: absolute;
+    right: 15px;
+}
+
+/*hero*/
+
+.hero {
+    padding: 15px;
+    text-align: center;
+}
+
+.line {
+    margin: auto;
+    width: 90%;
+    border: 1.25px dashed #76746F;
+
+    border: none;
+    height: 1px;
+    background: repeating-linear-gradient(90deg,#000,#000 6px,transparent 6px,transparent 12px);
+}
+
+.clgName {
+    font-weight: 700;
+    font-size: 14.5721px;
+    line-height: 18px;
+    /* identical to box height */
+    margin-bottom: 15px;
+
+    color: #161513;
+}
+
+.ad {
+    width: 95%;
+}
+
+/*adSec*/
+
+.adSec {
+    margin: 15px;
+}
+
+.adTxt {
+    font-weight: 800;
+    font-size: 26.2991px;
+    line-height: 32px;
+
+    color: #3E4749;
+}
+.catchyTxt {
+    color: #FF2828;
+}
+
+.adDesc {
+    font-weight: 600;
+    font-size: 0.75em;
+    line-height: 12px;
+    margin: 10px 0px;
+    color: #3E4749;
+}
+
+.register {
+    background: #FF2828;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 5px 8px;
+    color: #E8E3D2;
+    border: none;
+}
+
+.regisTxt {
+    font-weight: 600;
+    font-size: 0.7em;
+    line-height: 11px;
+}
